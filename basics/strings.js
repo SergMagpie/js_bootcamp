@@ -3,3 +3,4 @@ let lastName = 'Sorokin';
 let fullName = firstName + ' ' + lastName;
 
 console.log(fullName);
+//bgffg
