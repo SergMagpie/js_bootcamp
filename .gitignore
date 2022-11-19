@@ -1,1 +1,4 @@
 js_bootcamp.code-workspace
+node_modules
+arrays/package-lock.json
+arrays/package.json
