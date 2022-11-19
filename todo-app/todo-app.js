@@ -25,8 +25,25 @@ document.querySelector('body').appendChild(summary)
 
 todos.forEach(function (todo) {
     const p = document.createElement('p')
+    if (todo.completed) {
     p.textContent = todo.text
+} else {
+    const i = document.createElement('i')
+    i.textContent = todo.text
+    p.appendChild(i)
+}
     document.querySelector('body').appendChild(p)
+})
+
+const buttonClick = function (e) {
+    console.log('button click')
+    console.log(e)
+}
+document.querySelector('#create-notes').addEventListener('click', function (e) {
+    buttonClick(e)
+})
+document.querySelector('#delete-all').addEventListener('click', function (e) {
+    buttonClick(e)
 })
 
 // You have 2 todos left (p element)
