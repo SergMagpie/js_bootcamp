@@ -21,10 +21,13 @@ const sumIncompleteTodos = function () {
     })
     return complitedTodos.length
 }
-const writeSummary = function (){
-const summary = document.createElement('h2')
-summary.textContent = `You have ${sumIncompleteTodos()} todos left`
-document.querySelector('#summary').appendChild(summary)
+
+let hideComplited = false
+
+const writeSummary = function () {
+    const summary = document.createElement('h2')
+    summary.textContent = `You have ${sumIncompleteTodos()} todos left`
+    document.querySelector('#summary').appendChild(summary)
 }
 
 const writeTable = function () {
@@ -34,11 +37,15 @@ const writeTable = function () {
     todos.forEach(function (todo) {
         const p = document.createElement('p')
         if (!todo.completed) {
+
             p.textContent = todo.text
+
         } else {
-            const i = document.createElement('s')
-            i.textContent = todo.text
-            p.appendChild(i)
+            if (!hideComplited) {
+                const i = document.createElement('s')
+                i.textContent = todo.text
+                p.appendChild(i)
+            }
         }
         document.querySelector('#table').appendChild(p)
     })
@@ -51,10 +58,15 @@ const writeTable = function () {
 writeTable()
 
 const createNotes = function (e) {
+    if (document.querySelector('#input-notes')) {
+        document.querySelector('#input-notes').remove()
+    }
     const newNote = document.createElement('input')
-
+    const a = document.createAttribute("id");
+    a.value = "input-notes";
+    newNote.setAttributeNode(a)
     document.querySelector('#table').appendChild(newNote).focus()
-    document.querySelector('input').addEventListener('change', function (e) {
+    document.querySelector('#input-notes').addEventListener('change', function (e) {
         todos.push({
             text: e.target.value,
             completed: false
@@ -79,6 +91,11 @@ document.querySelector('#create-notes').addEventListener('click', function (e) {
 })
 document.querySelector('#delete-all').addEventListener('click', function (e) {
     todos.length = 0
+    writeTable()
+})
+document.querySelector('#hide-complited').addEventListener('click', function (e) {
+    hideComplited = e.target.checked
+    console.log(hideComplited)
     writeTable()
 })
 // document.querySelectorAll('p').forEach(function (el) {
