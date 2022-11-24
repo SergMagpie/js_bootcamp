@@ -6,7 +6,6 @@ const notes = getSavedNotes()
 const note = notes.find(function (note) {
     return note.id === noteId
 })
-debugger
 if (note === undefined) {
     location.assign('/index.html')
 }
@@ -16,11 +15,13 @@ bodyElement.value = note.body
 
 titleElement.addEventListener('input', function (e) {
     note.title = e.target.value
+    note.updatedAt = timeStringNow()
     saveNotes(notes)
 })
 
 bodyElement.addEventListener('input', function (e) {
     note.body = e.target.value
+    note.updatedAt = timeStringNow()
     saveNotes(notes)
 })
 
@@ -28,4 +29,8 @@ removeElement.addEventListener('click', function (e) {
     removeNote(note.id)
     saveNotes(notes)
     location.assign('/index.html')
+})
+
+window.addEventListener('click', function (e) {
+    console.log('clicked')
 })
