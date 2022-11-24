@@ -1,0 +1,359 @@
+{
+    "id": 1456,
+    "sku": "maz-bg-re-verw-pe-grijs-co-1000l-v-x4",
+    "name": "Mazouttank Kunststof: 4 x 1000l (= 4000l) UV-PROOF - gekoppeld rechthoek",
+    "attribute_set_id": 38,
+    "price": 5796,
+    "status": 1,
+    "visibility": 4,
+    "type_id": "simple",    
+    "created_at": "2019-01-05 14:24:08",
+    "updated_at": "2022-09-26 09:54:39",
+    "weight": 3013,
+    "extension_attributes": {
+        "website_ids": [
+            "1"
+        ],
+        "category_links": [
+            {
+                "position": 227,
+                "category_id": "4"
+            }, 
+            {
+                "position": 1,
+                "category_id": "82"
+            }
+        ],
+        "stock_item": {
+            "item_id": 2432,
+            "product_id": 1456,
+            "stock_id": 1,
+            "qty": 0,
+            "is_in_stock": true,
+            "is_qty_decimal": false,
+            "show_default_notification_message": false,
+            "use_config_min_qty": true,
+            "min_qty": 0,
+            "use_config_min_sale_qty": 1,
+            "min_sale_qty": 1,
+            "use_config_max_sale_qty": true,
+            "max_sale_qty": 10000,
+            "use_config_backorders": true,
+            "backorders": 0,
+            "use_config_notify_stock_qty": true,
+            "notify_stock_qty": 1,
+            "use_config_qty_increments": true,
+            "qty_increments": 0,
+            "use_config_enable_qty_inc": true,
+            "enable_qty_increments": false,
+            "use_config_manage_stock": true,
+            "manage_stock": false,
+            "low_stock_date": "2022-09-26 09:55:18",
+            "is_decimal_divided": false,
+            "stock_status_changed_auto": 1
+        },
+        "configurable_product_options_data": [],
+        "configurable_product_link_data": [],
+        "website_wise_product_price_data": [
+            "{\"website_id\":\"1\",\"product_price\":4796,\"default_store_currency\":\"EUR\"}"
+        ]
+    },
+    "product_links": [
+        {
+            "sku": "maz-bg-re-verw-pe-grijs-co-1000l-v-x4",
+            "link_type": "related",
+            "linked_product_sku": "toebehoren-mazoutpomp-voor-kachel-12-18",
+            "linked_product_type": "simple",
+            "position": 1
+        }
+    ],
+    "options": [
+        {
+            "product_sku": "maz-bg-re-verw-pe-grijs-co-1000l-v-x4",
+            "option_id": 36,
+            "title": "Permanent lekdetectiesysteem conform Vlarem II",
+            "type": "drop_down",
+            "sort_order": 0,
+            "is_require": false,
+            "sku": "",
+            "max_characters": 0,
+            "image_size_x": 0,
+            "image_size_y": 0,
+            "values": [
+                {
+                    "title": "1 x elektronische lekdetectie (gemonteerd op 1 tank)",
+                    "sort_order": 1,
+                    "price": 249,
+                    "price_type": "fixed",
+                    "sku": "",
+                    "option_type_id": 98
+                },
+                {
+                    "title": "2 x elektronische lekdetectie (gemonteerd op 2 tanks)",
+                    "sort_order": 2,
+                    "price": 548,
+                    "price_type": "fixed",
+                    "sku": "",
+                    "option_type_id": 99
+                },
+                {
+                    "title": "3 x elektronische lekdetectie (gemonteerd op 3 tanks)",
+                    "sort_order": 3,
+                    "price": 747,
+                    "price_type": "fixed",
+                    "sku": "",
+                    "option_type_id": 100
+                },
+                {
+                    "title": "4 x elektronische lekdetectie (gemonteerd op 4 tanks)",
+                    "sort_order": 4,
+                    "price": 996,
+                    "price_type": "fixed",
+                    "sku": "",
+                    "option_type_id": 101
+                }
+            ]
+        }
+    ],
+    "media_gallery_entries": [
+        {
+            "id": 4719,
+            "media_type": "image",
+            "label": null,
+            "position": 0,
+            "disabled": true,
+            "types": [
+                "small_image",
+                "thumbnail"
+            ],
+            "file": "/m/a/maz-bg-re-verw-pe-grijs-co-1000l-v-x4_00.jpg"
+        },
+        {
+            "id": 10130,
+            "media_type": "image",
+            "label": null,
+            "position": 2,
+            "disabled": true,
+            "types": [],
+            "file": "/m/a/maz-bg-re-verw-pe-grijs-co-01000l-v-x4-00-thumb.jpg"
+        },
+        {
+            "id": 4648,
+            "media_type": "image",
+            "label": null,
+            "position": 3,
+            "disabled": false,
+            "types": [
+                "image"
+            ],
+            "file": "/m/a/maz-bg-re-verw-pe-grijs-co-1000l-v-x4_01.png"
+        },
+        {
+            "id": 4649,
+            "media_type": "image",
+            "label": null,
+            "position": 4,
+            "disabled": false,
+            "types": [],
+            "file": "/m/a/maz-bg-re-verw-pe-grijs-co-1000l-v-x4_02.png"
+        },
+        {
+            "id": 4650,
+            "media_type": "image",
+            "label": null,
+            "position": 5,
+            "disabled": false,
+            "types": [],
+            "file": "/m/a/maz-bg-re-verw-pe-grijs-co-1000l-v-x4_03.png"
+        },
+        {
+            "id": 4651,
+            "media_type": "image",
+            "label": null,
+            "position": 6,
+            "disabled": false,
+            "types": [],
+            "file": "/m/a/maz-bg-re-verw-pe-grijs-co-1000l-v-x4_04.png"
+        },
+        {
+            "id": 4652,
+            "media_type": "image",
+            "label": null,
+            "position": 7,
+            "disabled": false,
+            "types": [],
+            "file": "/m/a/maz-bg-re-verw-pe-grijs-co-1000l-v-x4_05.png"
+        }
+    ],
+    "tier_prices": [
+        {
+            "customer_group_id": 11,
+            "qty": 1,
+            "value": 4057,
+            "extension_attributes": {
+                "website_id": 1
+            }
+        }
+    ],
+    "custom_attributes": [
+        {
+            "attribute_code": "length",
+            "value": "2,910 m"
+        },
+        {
+            "attribute_code": "length_of_single_tank",
+            "value": "1,420 m"
+        },
+        {
+            "attribute_code": "capacity",
+            "value": "4000"
+        },
+        {
+            "attribute_code": "am_shipping_type",
+            "value": "310"
+        },
+        {
+            "attribute_code": "meta_title",
+            "value": "Mazouttank Kunststof: 4 x 1000l (= 4000l) | UV bestendig"
+        },
+        {
+            "attribute_code": "image",
+            "value": "/m/a/maz-bg-re-verw-pe-grijs-co-1000l-v-x4_01.png"
+        },
+        {
+            "attribute_code": "is_recurring",
+            "value": "0"
+        },
+        {
+            "attribute_code": "gift_message_available",
+            "value": "0"
+        },
+        {
+            "attribute_code": "description",
+            "value": "<p>De UV-bestendige bovengrondse mazouttanks in polyethyleen (PE) zijn dubbelwandig, heel compact en toch zeer robuust. Ze beschikken over ge&iuml;ntegreerde handvaten en kunnen vlot door twee personen worden verplaatst, zelfs via een deur.</p>\n<p>De tanks zijn <strong>UV-gestabiliseerd en mogen buiten worden geplaatst</strong>. Indien u de tank afschermt voor de zon (bv. afdak of in de schaduw), dan zal dit de levensduur van uw tank bevorderen.</p>\n<p>Deze tanks zijn VLAREM II conform, en worden geleverd met een conformiteitsattest.</p>\n<p>Installatie en koppeling van deze tanks is zeer gemakkelijk, dankzij de duidelijke instructies die worden mee geleverd. Bovendien zijn alle noodzakelijke accessoires voor de aansluiting met uw verwarmingssysteem ge\u00efntegreerd in de het koppelingspakket: een aanzuigsysteem, volumemeters, een vulpijp, ventilatie ... Dit zorgt er voor dat de tanks na het koppelen tegelijkertijd worden gevuld en geleegd.</p>\n\n<hr />\n\n<h4>Kenmerken</h4>\n<ul class=\"toebehorenblocks\">\n<li class=\"foto\"><img alt=\"polyethyleen\" src=\"{{media url=\"wysiwyg/maz-pe-grijs/img_detail_mazout_grijs_hdpe_st_en_co.jpg\"}}\" /></li>\n<li class=\"tekst\">\n<h5>Hoogwaardige kunststof</h5>\n<p>De buiten- en binnentank zijn naadloos gefabriceerd in hoogwaardig polyethyleen (HD-PE). Een materie die:</p>\n<ul>\n<li style=\"list-style-type: none;\">- ongevoelig is voor corrosie</li>\n<li style=\"list-style-type: none;\">- brandbestendig is (gedurende 30 minuten).</li>\n</ul>\n</li>\n<li class=\"foto\"><img alt=\"binnen of onder afdak\" src=\"{{media url=\"wysiwyg/maz-pe-grijs/img_detail_mazout_grijs_plaatsing_buiten.jpg\"}}\" /></li>\n<li class=\"tekst\">\n<h5>UV-proof</h5>\n<p>Deze mazouttanks zijn UV-gestabiliseerd en mogen buiten worden geplaatst.</p>\n</li>\n</ul>\n<ul class=\"toebehorenblocks\">\n<li class=\"foto\"><img alt=\"Extra smalle tank\" src=\"{{media url=\"wysiwyg/maz-pe-grijs/img_detail_mazout_grijs_door_deur_st_en_co.jpg\"}}\" /></li>\n<li class=\"tekst\">\n<h5>Smalle tank: kan door een deur!</h5>\n<p>Deze tank kan eenvoudig met twee personen door een deur worden gedragen.</p>\n</li>\n<li class=\"foto\"><img alt=\"15 jaar fabrieksgarantie\" src=\"{{media url=\"wysiwyg/garantie/img_detail_garantie_nl_15j.jpg\"}}\"></li>\n<li class=\"tekst\">\n<h5>15 jaar garantie</h5>\n<p>Op deze tank krijgt u 15 jaar fabrieksgarantie.</p>\n</li>\n</ul>\n<ul class=\"toebehorenblocks\">\n<li class=\"foto\"><img alt=\"Conform Vlarem II\" src=\"{{media url=\"wysiwyg/attest/img_detail_attest_nl.jpg\"}}\" /></li>\n<li class=\"tekst\">\n<h5>Conform Vlarem II !</h5>\n<p>De tanks beschikken over een conformiteitsattest en beantwoorden aan de normen van de Vlarem II-wetgeving.</p>\n</li>\n<li class=\"foto\"><img alt=\"gemakkelijk verplaatsbaar\" src=\"{{media url=\"wysiwyg/maz-pe-grijs/img_detail_mazout_grijs_handvaten.jpg\"}}\" /></li>\n<li class=\"tekst\">\n<h5>Gemakkelijk verplaatsbaar</h5>\n<p>De lege mazouttank is niet zwaar en heeft ge\u00efntegreerde handvaten, en kan daardoor heel eenvoudig gedragen en verplaatst worden.</p>\n</li>\n</ul>\n\n<ul class=\"toebehorenblocks\">\n<li class=\"foto\"><img alt=\"eenvoudige montage\" src=\"{{media url=\"wysiwyg/maz-pe-grijs/img_detail_mazout_grijs_gekoppeld_montage.jpg\"}}\" /></li>\n<li class=\"tekst\">\n<h5>Eenvoudige montage</h5>\n<p>Met de gedetailleerde montagehandleiding kunt u deze tanks vlot installeren. Uiteraard kunt u ons bellen voor telefonische ondersteuning tijdens de installatie.</p>\n</li>\n</ul>\n\n<hr>\n\n<h4>Toebehoren</h4>\n<p>Alle koppelingsonderdelen worden meegeleverd.</p>\n<div class=\"product-info-full-width\">\n<div class=\"product-info-full-width-img500\">\n<img alt=\"koppelingen en toebehoren\" src=\"{{media url=\"wysiwyg/maz-pe-grijs/img_koppelingen_mazout_pe_grijs.jpg\"}}\">\n</div>\n<div class=\"product-info-full-width-txt500rest\">\n<h5>1. Aanzuigset</h5>\n<p>De aanzuigset laat toe om de stookolie gelijkmatig uit de tanks aan te zuigen. Deze set bevat ook een overvulbeveiliging, zodat uw leverancier de tank reglementair kan vullen. De set bevat geen retouropening.</p>\n<h5>2. Vulbuis</h5>\n<p>De tanks worden gelijkmatig gevuld.</p>\n<h5>3. Volumemeter</h5>\n<p>Elke tank beschikt over een mechanische volumemeter.</p>\n</div>\n</div>\n\n<hr>\n\n<h4>Koppelen van mazouttanks voor grotere volumes</h4>\n<p>Het koppelen van stookolietanks biedt meerdere voordelen :</p>\n<ul>\n<li>De tanks in polyethyleen vormen een ideale oplossing om een groot opslagvolume van mazout te bekomen en dit op moeilijk toegankelijke plaatsen (in een kelder, passeren via een deur,...). Zo zal een tank van 2500 liter niet door een deur kunnen worden gebracht of is een metalen mazouttank moeilijk in een woning te plaatsen,...</li>\n<li>Modulair : het is mogelijk om later &eacute;&eacute;n of meerdere tanks toe te voegen aan uw installatie.</li>\n</ul>\n<h4>Hoe koppel ik een mazouttank?</h4>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6lrI8uwSzz4\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        },
+        {
+            "attribute_code": "width",
+            "value": "1,420 m"
+        },
+        {
+            "attribute_code": "width_of_single_tank",
+            "value": "0,660 m"
+        },
+        {
+            "attribute_code": "capacity_layered",
+            "value": "234"
+        },
+        {
+            "attribute_code": "small_image",
+            "value": "/m/a/maz-bg-re-verw-pe-grijs-co-1000l-v-x4_00.jpg"
+        },
+        {
+            "attribute_code": "gift_wrapping_available",
+            "value": "0"
+        },
+        {
+            "attribute_code": "short_description",
+            "value": "<p>Deze kit bevat 4 kunststof mazouttanks van 1000 liter en alle nodige toebehoren om ze met elkaar te koppelen. Zo bekomt u een totale <strong><i>opslagcapaciteit van 4000 liter</strong></i>!</p>\n<p>Elke 1000 liter mazouttank is <strong><i>slechts 66 cm breed</i></strong> en weegt slechts 62 kg.</p>\n<p>Dit type tank is <strong><i>UV-bestendig</i></strong> en mag buiten worden geplaatst. Deze tanks zijn <strong><i>conform Vlarem II</i></strong>, en worden geleverd met een conformiteitsattest.</p>\n{{customVar code=variable_gratis_levering}}\n{{customVar code=variable_dealer_formulier}}"
+        },
+        {
+            "attribute_code": "height",
+            "value": "1,825 m"
+        },
+        {
+            "attribute_code": "height_of_single_tank",
+            "value": "1,675 m"
+        },
+        {
+            "attribute_code": "shape_catagories",
+            "value": "250"
+        },
+        {
+            "attribute_code": "special_price",
+            "value": "4796.000000"
+        },
+        {
+            "attribute_code": "meta_description",
+            "value": "4 dubbelwandige kunststof mazouttanks van 1000 liter met toebehoren om ze aan elkaar te koppelen. Totale opslag: 4000 liter. Smalle tank, kan door een deurgat."
+        },
+        {
+            "attribute_code": "thumbnail",
+            "value": "/m/a/maz-bg-re-verw-pe-grijs-co-1000l-v-x4_00.jpg"
+        },
+        {
+            "attribute_code": "weight_visible",
+            "value": "262 kg (gewicht van complete kit)"
+        },
+        {
+            "attribute_code": "materiaal",
+            "value": "240"
+        },
+        {
+            "attribute_code": "special_from_date",
+            "value": "2019-06-18 00:00:00"
+        },
+        {
+            "attribute_code": "number_of_tanks",
+            "value": "4"
+        },
+        {
+            "attribute_code": "walls",
+            "value": "241"
+        },
+        {
+            "attribute_code": "options_container",
+            "value": "container2"
+        },
+        {
+            "attribute_code": "placement",
+            "value": "243,244,246"
+        },
+        {
+            "attribute_code": "product_family",
+            "value": "362,363"
+        },
+        {
+            "attribute_code": "configuration",
+            "value": "330"
+        },
+        {
+            "attribute_code": "msrp_display_actual_price_type",
+            "value": "4"
+        },
+        {
+            "attribute_code": "tax_class_id",
+            "value": "1"
+        },
+        {
+            "attribute_code": "url_key",
+            "value": "mazouttank-kunststof-4-x-1000l-4000l-uv-proof-gekoppeld-rechthoek"
+        },
+        {
+            "attribute_code": "required_options",
+            "value": false
+        },
+        {
+            "attribute_code": "category_ids",
+            "value": [
+                "4",
+                "82"
+            ]
+        },
+        {
+            "attribute_code": "has_options",
+            "value": true
+        },
+        {
+            "attribute_code": "hide_price",
+            "value": "0"
+        },
+        {
+            "attribute_code": "hide_price_message",
+            "value": "Prijs afhankelijk van totaalvolume"
+        },
+        {
+            "attribute_code": "mst_search_weight",
+            "value": "0"
+        }
+    ]
+}
