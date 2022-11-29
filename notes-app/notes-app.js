@@ -5,7 +5,7 @@ const filters = {
 }
 
 const sorters = {
-    sorterText: ''
+    sorterText: 'byEdited'
 }
 
 renderNotes(notes, filters, sorters)
