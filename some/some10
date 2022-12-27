@@ -1,0 +1,40 @@
+{
+    "id": 666,
+    "group_id": 1,
+    "default_billing": "651",
+    "default_shipping": "651",
+    "created_at": "2017-06-16 15:55:35",
+    "updated_at": "2022-05-09 11:47:07",
+    "created_in": "Nederlands - Tankkopen.be",
+    "email": "nicoghys@outlook.com",
+    "firstname": "Nico",
+    "lastname": "Ghys",
+    "store_id": 1,
+    "website_id": 1,
+    "addresses": [
+        {
+            "id": 651,
+            "customer_id": 666,
+            "region": {
+                "region_code": "Oost-Vlaanderen",
+                "region": "Oost-Vlaanderen",
+                "region_id": 0
+            },
+            "region_id": 0,
+            "country_id": "BE",
+            "street": [
+                "Hoogstraat 48"
+            ],
+            "company": "/",
+            "telephone": "04/78246332",
+            "fax": "/",
+            "postcode": "9770",
+            "city": "Kruishoutem",
+            "firstname": "Nico",
+            "lastname": "Ghys",
+            "default_shipping": true,
+            "default_billing": true
+        }
+    ],
+    "disable_auto_group_change": 0
+}
