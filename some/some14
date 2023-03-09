@@ -1,0 +1,62 @@
+{"price": 123,
+ "quantity": 355,
+ "default_code": "729",
+ "nt_sku": "TYPPPP",
+ "product_brand_Id": "Sergio Tacchini",
+ "categ_id": "462",
+ "nt_size": "124",
+ "nt_rrp": "12344",
+ "image_url": "/pim-image-bucket/0c7b307c77d6f03d520e2b63c0045c8a.jpg"}
+
+[{'price': 123,
+  'quantity': 355,
+  'default_code': '729',
+  'nt_sku': 'TYPPPP',                       # sku
+  'product_brand_Id': 'Sergio Tacchini',    # brand_name
+  'nt_gender': 'gender',                    # gender
+  'nt_product_type': 'product group',       # product_group
+  'categ_id': '462',
+  'nt_size': '124',
+  'nt_year': 'year',
+  'nt_origin': 'country of origin',
+  'barcode': 'Barcode',
+  'hs_code_id': 'hs code',
+  'weight': 'weit',
+  'nt_deal_id': 'linesheet',
+  'nt_rrp': '12344',
+  'list_price': '12000',
+  'nt_colour': 'colour',
+  'nt_material': 'material',
+  'nt_measurements': 'measurments',
+  'image_url': '/pim-image-bucket/0c7b307c77d6f03d520e2b63c0045c8a.jpg'}]
+
+{"results": [{
+    "price": 123, #
+    "quantity": 355, 
+    "default_code": "729", #
+    "nt_sku": "TYPPPP", #
+    "product_brand_Id": "Sergio Tacchini", #
+    "nt_gender": "gender", #
+    "nt_product_type": "product group", #
+    "categ_id": "462", #
+    "nt_size": "124", #
+    "nt_year": "year", #
+    "nt_origin": "country of origin", #
+    "barcode": "Barcode", #
+    "hs_code_id": "hs code", #
+    "weight": "weit",#
+    "nt_deal_id": "linesheet", #
+    "nt_rrp": "12344", #
+    "list_price": "12000", #
+    "nt_colour": "colour", #
+    "nt_material": "material", #
+    "nt_measurements": "measurments", #
+    "image_url": "/pim-image-bucket/0c7b307c77d6f03d520e2b63c0045c8a.jpg"
+    }], 
+    "meta": {
+    "page": 1, 
+    "take": 10, 
+    "itemCount": 1, 
+    "pageCount": 1, 
+    "hasPreviousPage": false, 
+    "hasNextPage": false}}#

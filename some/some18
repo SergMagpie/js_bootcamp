@@ -1,0 +1,148 @@
+{
+  "amount": 78035,
+  "amount_refunded": 0,
+  "checkout_options": {
+    "alternate": [
+      {
+        "name": "21",
+        "rules": [
+          {
+            "country": "",
+            "rate": "0.21"
+          }
+        ],
+        "standalone": ""
+      },
+      {
+        "name": "0",
+        "rules": [
+          {
+            "country": "",
+            "rate": "0.00"
+          }
+        ],
+        "standalone": ""
+      }
+    ],
+    "default": [
+
+    ]
+  },
+  "costs": [
+    {
+      "amount": 22.63,
+      "description": "2.9 % For Visa CreditCards Transactions (min 0.6)",
+      "transaction_id": "6187067",
+      "type": "SYSTEM"
+    }
+  ],
+  "created": "2023-01-03T16:32:08",
+  "currency": "EUR",
+  "custom_info": {
+    "custom_1": null,
+    "custom_2": null,
+    "custom_3": null
+  },
+  "customer": {
+    "address1": "Bochtenstraat",
+    "address2": null,
+    "city": "Destelbergen",
+    "country": "BE",
+    "country_name": null,
+    "email": "tester@ukr.net",
+    "first_name": "Maryna",
+    "house_number": 34,
+    "last_name": "Poltavets",
+    "locale": "nl_BE",
+    "phone1": "+35079997695",
+    "phone2": "",
+    "state": null,
+    "zip_code": 9070
+  },
+  "description": "Betaling voor order: 5299",
+  "fastcheckout": "NO",
+  "financial_status": "completed",
+  "items": "<table border=\"0\" cellpadding=\"5\" width=\"100%\">\n<tr>\n<th width=\"10%\"><font size=\"2\" face=\"Verdana\">Quantity </font></th>\n<th align=\"left\"></th>\n<th align=\"left\"><font size=\"2\" face=\"Verdana\">Details </font></th>\n<th width=\"19%\" align=\"right\"><font size=\"2\" face=\"Verdana\">Price </font></th>\n</tr>\n<tr>\n<td align=\"center\"><font size=\"2\" face=\"Verdana\">2</font></td>\n<td width=\"6%\"></td>\n<td width=\"65%\"><font size=\"2\" face=\"Verdana\">2 gekoppelde IBC containers WIT op metalen of kunststof pallet - professioneel gecleand</font></td>\n<td align=\"right\">&euro;<font size=\"2\" face=\"Verdana\">322.46</font>\n</td>\n</tr>\n<tr>\n<td align=\"center\"><font size=\"2\" face=\"Verdana\">1</font></td>\n<td width=\"6%\"></td>\n<td width=\"65%\"><font size=\"2\" face=\"Verdana\">Verzendmethode</font></td>\n<td align=\"right\">&euro;<font size=\"2\" face=\"Verdana\">0.00</font>\n</td>\n</tr>\n</table>",
+  "modified": "2023-01-03T16:32:08",
+  "order_adjustment": {
+    "total_adjustment": 135.4332,
+    "total_tax": 135.4332
+  },
+  "order_id": "5299",
+  "order_total": 780.3532,
+  "payment_details": {
+    "account_holder_name": "CARDHOLDER",
+    "account_id": null,
+    "card_expiry_date": "2402",
+    "external_transaction_id": "23478922",
+    "last4": "1111",
+    "recurring_flow": null,
+    "recurring_id": null,
+    "recurring_model": null,
+    "type": "VISA"
+  },
+  "payment_methods": [
+    {
+      "account_holder_name": "CARDHOLDER",
+      "amount": 78035,
+      "card_expiry_date": 2402,
+      "currency": "EUR",
+      "description": "Betaling voor order: 5299",
+      "external_transaction_id": "23478922",
+      "last4": 1111,
+      "payment_description": "Visa",
+      "status": "completed",
+      "type": "VISA"
+    }
+  ],
+  "reason": "",
+  "reason_code": "",
+  "related_transactions": null,
+  "shopping_cart": {
+    "items": [
+      {
+        "cashback": "",
+        "currency": "EUR",
+        "description": "",
+        "image": "",
+        "merchant_item_id": "947",
+        "name": "2 gekoppelde IBC containers WIT op metalen of kunststof pallet - professioneel gecleand",
+        "options": [
+
+        ],
+        "product_url": "",
+        "quantity": "2",
+        "tax_table_selector": "21",
+        "unit_price": "322.4600000000",
+        "weight": {
+          "unit": null,
+          "value": null
+        }
+      },
+      {
+        "cashback": "",
+        "currency": "EUR",
+        "description": "",
+        "image": "",
+        "merchant_item_id": "msp-shipping",
+        "name": "Verzendmethode",
+        "options": [
+
+        ],
+        "product_url": "",
+        "quantity": "1",
+        "tax_table_selector": "0",
+        "unit_price": "0.00",
+        "weight": {
+          "unit": null,
+          "value": null
+        }
+      }
+    ]
+  },
+  "status": "completed",
+  "transaction_id": 7550397,
+  "var1": null,
+  "var2": "5299",
+  "var3": null
+}

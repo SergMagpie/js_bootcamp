@@ -1,0 +1,8 @@
+{'db': 'odoo_dev', 
+'token': 'DqXJAHKJXWp3jyaSDiVI', 
+'disable_database_manager': False, 
+'signup_enabled': True, 
+'reset_password_enabled': True, 
+'name': 'Internal User', 
+'login': 'email@addres.com', 
+'application_date': '05-01-2023'}

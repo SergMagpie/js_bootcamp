@@ -1,40 +1,49 @@
-{
-    "id": 666,
-    "group_id": 1,
-    "default_billing": "651",
-    "default_shipping": "651",
-    "created_at": "2017-06-16 15:55:35",
-    "updated_at": "2022-05-09 11:47:07",
-    "created_in": "Nederlands - Tankkopen.be",
-    "email": "nicoghys@outlook.com",
-    "firstname": "Nico",
-    "lastname": "Ghys",
-    "store_id": 1,
-    "website_id": 1,
-    "addresses": [
-        {
-            "id": 651,
-            "customer_id": 666,
-            "region": {
-                "region_code": "Oost-Vlaanderen",
-                "region": "Oost-Vlaanderen",
-                "region_id": 0
+[
+    {'id': 202, 'name': 'Odoo Supplier', 'odooId': None, 'odooStatus': False, 'products': [
+            {'id': 711, 'name': 'asdf', 'sku': 'TYPPP', 'size': '12', 'quantity': 123, 'prices': [
+                    {'name': 'Retail', 'value': 11111
+                    }
+                ]
+            }
+        ]
+    },
+    {'id': 204, 'name': 'Fashion Dealer', 'odooId': '', 'odooStatus': False, 'products': [
+            {'id': 728, 'name': 'GUesss', 'sku': 'TYPPP1', 'size': '12', 'quantity': 123, 'prices': [
+                    {'name': 'Retail', 'value': 123
+                    },
+                    {'name': 'Promo', 'value': 1234
+                    },
+                    {'name': 'Cost', 'value': 12445
+                    }
+                ]
             },
-            "region_id": 0,
-            "country_id": "BE",
-            "street": [
-                "Hoogstraat 48"
-            ],
-            "company": "/",
-            "telephone": "04/78246332",
-            "fax": "/",
-            "postcode": "9770",
-            "city": "Kruishoutem",
-            "firstname": "Nico",
-            "lastname": "Ghys",
-            "default_shipping": true,
-            "default_billing": true
-        }
-    ],
-    "disable_auto_group_change": 0
-}
+            {'id': 729, 'name': 'Guesss', 'sku': 'TYPPPP', 'size': '124', 'quantity': 1234, 'prices': [
+                    {'name': 'Retail', 'value': 123.44
+                    }
+                ]
+            }
+        ]
+    },
+    {'id': 223, 'name': 'Source Mate', 'odooId': '43', 'odooStatus': True, 'products': []
+    },
+    {'id': 224, 'name': 'Casual Dealer', 'odooId': '22', 'odooStatus': True, 'products': []
+    },
+    {'id': 225, 'name': 'Classic Deal', 'odooId': '', 'odooStatus': False, 'products': []
+    },
+    {'id': 1, 'name': 'Iuvas', 'odooId': None, 'odooStatus': False, 'products': []
+    },
+    {'id': 2, 'name': 'Jupiter Style', 'odooId': '122', 'odooStatus': True, 'products': []
+    },
+    {'id': 3, 'name': 'Mega Supplier1', 'odooId': '', 'odooStatus': False, 'products': []
+    },
+    {'id': 4, 'name': 'MegaSupplier 3', 'odooId': '', 'odooStatus': False, 'products': []
+    },
+    {'id': 11, 'name': 'suppliertest', 'odooId': '', 'odooStatus': False, 'products': [
+            {'id': 709, 'name': '', 'sku': 'KBH19051982KBH', 'size': '42', 'quantity': 100, 'prices': [
+                    {'name': 'Promo', 'value': 150
+                    }
+                ]
+            }
+        ]
+    }
+]

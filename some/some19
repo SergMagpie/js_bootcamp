@@ -1,0 +1,207 @@
+{
+  "id": 5299,
+  "parent_id": 0,
+  "status": "processing",
+  "currency": "EUR",
+  "version": "7.2.0",
+  "prices_include_tax": false,
+  "date_created": "2023-01-03T16:31:50",
+  "date_modified": "2023-01-03T16:32:10",
+  "discount_total": "0.00",
+  "discount_tax": "0.00",
+  "shipping_total": "0.00",
+  "shipping_tax": "0.00",
+  "cart_tax": "135.43",
+  "total": "780.35",
+  "total_tax": "135.43",
+  "customer_id": 0,
+  "order_key": "wc_order_pmxoKxR113xuV",
+  "billing": {
+    "first_name": "Maryna",
+    "last_name": "Poltavets",
+    "company": "Sk",
+    "address_1": "Bochtenstraat",
+    "address_2": "34",
+    "city": "Destelbergen",
+    "state": "",
+    "postcode": "9070",
+    "country": "BE",
+    "email": "Tester@ukr.net",
+    "phone": "+35079997695"
+  },
+  "shipping": {
+    "first_name": "Maryna",
+    "last_name": "Poltavets",
+    "company": "Sk",
+    "address_1": "Bochtenstraat",
+    "address_2": "34",
+    "city": "Destelbergen",
+    "state": "",
+    "postcode": "9070",
+    "country": "BE",
+    "phone": ""
+  },
+  "payment_method": "multisafepay_visa",
+  "payment_method_title": "Visa",
+  "transaction_id": "7550397",
+  "customer_ip_address": "94.45.135.34",
+  "customer_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+  "created_via": "checkout",
+  "customer_note": "",
+  "date_completed": null,
+  "date_paid": "2023-01-03T16:32:10",
+  "cart_hash": "78d6ac87b36b5d568104e93603cecef8",
+  "number": "5299",
+  "meta_data": [
+    {
+      "id": 226677,
+      "key": "_billing_vat_number",
+      "value": ""
+    },
+    {
+      "id": 226678,
+      "key": "is_vat_exempt",
+      "value": "no"
+    },
+    {
+      "id": 226679,
+      "key": "_vat_number_is_validated",
+      "value": "false"
+    },
+    {
+      "id": 226680,
+      "key": "_vat_number_is_valid",
+      "value": "false"
+    },
+    {
+      "id": 226681,
+      "key": "_customer_ip_country",
+      "value": "UA"
+    },
+    {
+      "id": 226682,
+      "key": "_customer_self_declared_country",
+      "value": "false"
+    },
+    {
+      "id": 226683,
+      "key": "_wdr_discounts",
+      "value": {
+        "free_shipping": false,
+        "cart_discounts": [
+
+        ],
+        "saved_amount": {
+          "product_level": 0,
+          "product_level_based_on_tax_settings": 0,
+          "cart_level": 0,
+          "total": 0,
+          "total_based_on_tax_settings": 0
+        }
+      }
+    },
+    {
+      "id": 226688,
+      "key": "_ga_tracked",
+      "value": "1"
+    }
+  ],
+  "line_items": [
+    {
+      "id": 3902,
+      "name": "2 gekoppelde IBC containers WIT op metalen of kunststof pallet - professioneel gecleand",
+      "product_id": 947,
+      "variation_id": 0,
+      "quantity": 2,
+      "tax_class": "",
+      "subtotal": "644.92",
+      "subtotal_tax": "135.43",
+      "total": "644.92",
+      "total_tax": "135.43",
+      "taxes": [
+        {
+          "id": 1,
+          "total": "135.4332",
+          "subtotal": "135.4332"
+        }
+      ],
+      "meta_data": [
+
+      ],
+      "sku": "IBC-cleaned-white-peme-combi-basic-2",
+      "price": 322.46,
+      "image": {
+        "id": "2213",
+        "src": "https://ibcbenl.boltest.be/wp-content/uploads/2022/01/ibc-container-wit-gekoppeld-2x-1000L-gereinigd-palet-metaal-kunststof-list.webp"
+      },
+      "parent_name": null
+    }
+  ],
+  "tax_lines": [
+    {
+      "id": 3904,
+      "rate_code": "BE-BTW-1",
+      "rate_id": 1,
+      "label": "btw",
+      "compound": false,
+      "tax_total": "135.43",
+      "shipping_tax_total": "0.00",
+      "rate_percent": 21,
+      "meta_data": [
+
+      ]
+    }
+  ],
+  "shipping_lines": [
+    {
+      "id": 3903,
+      "method_title": "Afhalen (enkel op afspraak)",
+      "method_id": "local_pickup",
+      "instance_id": "8",
+      "total": "0.00",
+      "total_tax": "0.00",
+      "taxes": [
+
+      ],
+      "meta_data": [
+        {
+          "id": 31727,
+          "key": "Artikelen",
+          "value": "2 gekoppelde IBC containers WIT op metalen of kunststof pallet - professioneel gecleand &times; 2",
+          "display_key": "Artikelen",
+          "display_value": "2 gekoppelde IBC containers WIT op metalen of kunststof pallet - professioneel gecleand &times; 2"
+        }
+      ]
+    }
+  ],
+  "fee_lines": [
+
+  ],
+  "coupon_lines": [
+
+  ],
+  "refunds": [
+
+  ],
+  "payment_url": "https://ibcbenl.boltest.be/checkout/order-pay/5299/?pay_for_order=true&key=wc_order_pmxoKxR113xuV",
+  "is_editable": false,
+  "needs_payment": false,
+  "needs_processing": true,
+  "date_created_gmt": "2023-01-03T15:31:50",
+  "date_modified_gmt": "2023-01-03T15:32:10",
+  "date_completed_gmt": null,
+  "date_paid_gmt": "2023-01-03T15:32:10",
+  "currency_symbol": "€",
+  "_links": {
+    "self": [
+      {
+        "href": "https://ibcbenl.boltest.be/wp-json/wc/v3/orders/5299"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://ibcbenl.boltest.be/wp-json/wc/v3/orders"
+      }
+    ]
+  }
+}
