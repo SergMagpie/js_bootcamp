@@ -1,207 +1,343 @@
 {
-  "id": 5299,
-  "parent_id": 0,
-  "status": "processing",
-  "currency": "EUR",
-  "version": "7.2.0",
-  "prices_include_tax": false,
-  "date_created": "2023-01-03T16:31:50",
-  "date_modified": "2023-01-03T16:32:10",
-  "discount_total": "0.00",
-  "discount_tax": "0.00",
-  "shipping_total": "0.00",
-  "shipping_tax": "0.00",
-  "cart_tax": "135.43",
-  "total": "780.35",
-  "total_tax": "135.43",
-  "customer_id": 0,
-  "order_key": "wc_order_pmxoKxR113xuV",
-  "billing": {
-    "first_name": "Maryna",
-    "last_name": "Poltavets",
-    "company": "Sk",
-    "address_1": "Bochtenstraat",
-    "address_2": "34",
-    "city": "Destelbergen",
-    "state": "",
-    "postcode": "9070",
-    "country": "BE",
-    "email": "Tester@ukr.net",
-    "phone": "+35079997695"
-  },
-  "shipping": {
-    "first_name": "Maryna",
-    "last_name": "Poltavets",
-    "company": "Sk",
-    "address_1": "Bochtenstraat",
-    "address_2": "34",
-    "city": "Destelbergen",
-    "state": "",
-    "postcode": "9070",
-    "country": "BE",
-    "phone": ""
-  },
-  "payment_method": "multisafepay_visa",
-  "payment_method_title": "Visa",
-  "transaction_id": "7550397",
-  "customer_ip_address": "94.45.135.34",
-  "customer_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-  "created_via": "checkout",
-  "customer_note": "",
-  "date_completed": null,
-  "date_paid": "2023-01-03T16:32:10",
-  "cart_hash": "78d6ac87b36b5d568104e93603cecef8",
-  "number": "5299",
-  "meta_data": [
+  "base_currency_code": "EUR",
+  "base_discount_amount": 0,
+  "base_grand_total": 1573,
+  "base_discount_tax_compensation_amount": 0,
+  "base_shipping_amount": 59,
+  "base_shipping_discount_amount": 0,
+  "base_shipping_discount_tax_compensation_amnt": 0,
+  "base_shipping_incl_tax": 71.39,
+  "base_shipping_tax_amount": 12.39,
+  "base_subtotal": 1241,
+  "base_subtotal_incl_tax": 1501.61,
+  "base_tax_amount": 273,
+  "base_total_due": 1573,
+  "base_to_global_rate": 1,
+  "base_to_order_rate": 1,
+  "billing_address_id": 29041,
+  "created_at": "2023-04-11 09:53:57",
+  "customer_email": "test123@gmail.com",
+  "customer_firstname": "Serhii",
+  "customer_group_id": 0,
+  "customer_is_guest": 1,
+  "customer_lastname": "Sorokin",
+  "customer_note_notify": 1,
+  "discount_amount": 0,
+  "entity_id": 14533,
+  "global_currency_code": "EUR",
+  "grand_total": 1573,
+  "discount_tax_compensation_amount": 0,
+  "increment_id": "ORD58461",
+  "is_virtual": 0,
+  "order_currency_code": "EUR",
+  "protect_code": "4c8bc62b2e1068fddf813c02045b20ef",
+  "quote_id": 63460,
+  "remote_ip": "185.96.30.146",
+  "shipping_amount": 59,
+  "shipping_description": "Levering bij u in Belgi\u00eb, met vrachtwagen met laadklep",
+  "shipping_discount_amount": 0,
+  "shipping_discount_tax_compensation_amount": 0,
+  "shipping_incl_tax": 71.39,
+  "shipping_tax_amount": 12.39,
+  "state": "new",
+  "status": "pending",
+  "store_currency_code": "EUR",
+  "store_id": 1,
+  "store_name": "tankkopen.be\nTankkopen.be - Tank kopen\nNederlands - Tankkopen.be",
+  "store_to_base_rate": 0,
+  "store_to_order_rate": 0,
+  "subtotal": 1241,
+  "subtotal_incl_tax": 1501.61,
+  "tax_amount": 273,
+  "total_due": 1573,
+  "total_item_count": 1,
+  "total_qty_ordered": 1,
+  "updated_at": "2023-04-11 09:54:01",
+  "weight": 573,
+  "items": [
     {
-      "id": 226677,
-      "key": "_billing_vat_number",
-      "value": ""
-    },
-    {
-      "id": 226678,
-      "key": "is_vat_exempt",
-      "value": "no"
-    },
-    {
-      "id": 226679,
-      "key": "_vat_number_is_validated",
-      "value": "false"
-    },
-    {
-      "id": 226680,
-      "key": "_vat_number_is_valid",
-      "value": "false"
-    },
-    {
-      "id": 226681,
-      "key": "_customer_ip_country",
-      "value": "UA"
-    },
-    {
-      "id": 226682,
-      "key": "_customer_self_declared_country",
-      "value": "false"
-    },
-    {
-      "id": 226683,
-      "key": "_wdr_discounts",
-      "value": {
-        "free_shipping": false,
-        "cart_discounts": [
-
-        ],
-        "saved_amount": {
-          "product_level": 0,
-          "product_level_based_on_tax_settings": 0,
-          "cart_level": 0,
-          "total": 0,
-          "total_based_on_tax_settings": 0
+      "amount_refunded": 0,
+      "base_amount_refunded": 0,
+      "base_discount_amount": 0,
+      "base_discount_invoiced": 0,
+      "base_discount_tax_compensation_amount": 0,
+      "base_original_price": 1241,
+      "base_price": 1241,
+      "base_price_incl_tax": 1501.61,
+      "base_row_invoiced": 0,
+      "base_row_total": 1241,
+      "base_row_total_incl_tax": 1501.61,
+      "base_tax_amount": 260.61,
+      "base_tax_invoiced": 0,
+      "created_at": "2023-04-11 09:53:57",
+      "discount_amount": 0,
+      "discount_invoiced": 0,
+      "discount_percent": 0,
+      "free_shipping": 0,
+      "discount_tax_compensation_amount": 0,
+      "is_qty_decimal": 0,
+      "is_virtual": 0,
+      "item_id": 26268,
+      "name": "750 liter kunststof mazouttank met dieselpomp (220V) - 66 cm breed",
+      "no_discount": 0,
+      "order_id": 14533,
+      "original_price": 1241,
+      "price": 1241,
+      "price_incl_tax": 1501.61,
+      "product_id": 1653,
+      "product_type": "simple",
+      "qty_canceled": 0,
+      "qty_invoiced": 0,
+      "qty_ordered": 1,
+      "qty_refunded": 0,
+      "qty_shipped": 0,
+      "quote_item_id": 93291,
+      "row_invoiced": 0,
+      "row_total": 1241,
+      "row_total_incl_tax": 1501.61,
+      "row_weight": 573,
+      "sku": "mazpmp-bg-pewit-re-00750l-co",
+      "store_id": 1,
+      "tax_amount": 260.61,
+      "tax_invoiced": 0,
+      "tax_percent": 21,
+      "updated_at": "2023-04-11 09:53:58",
+      "weight": 573,
+      "product_option": {
+        "extension_attributes": {
+          "custom_options": [
+            {
+              "option_id": "91",
+              "option_value": "268"
+            },
+            {
+              "option_id": "244",
+              "option_value": ""
+            },
+            {
+              "option_id": "92",
+              "option_value": "260"
+            },
+            {
+              "option_id": "94",
+              "option_value": "271"
+            }
+          ]
         }
       }
+    }
+  ],
+  "billing_address": {
+    "address_type": "billing",
+    "city": "Destelbergen",
+    "country_id": "BE",
+    "email": "test123@gmail.com",
+    "entity_id": 29041,
+    "firstname": "Serhii",
+    "lastname": "Sorokin",
+    "parent_id": 14533,
+    "postcode": "9070",
+    "street": [
+      "Bochtenstraat"
+    ],
+    "telephone": "+35079978695"
+  },
+  "payment": {
+    "account_status": null,
+    "additional_information": [
+      "Bankoverschrijving (op voorhand)"
+    ],
+    "amount_ordered": 1573,
+    "base_amount_ordered": 1573,
+    "base_shipping_amount": 59,
+    "cc_exp_year": "0",
+    "cc_last4": null,
+    "cc_ss_start_month": "0",
+    "cc_ss_start_year": "0",
+    "entity_id": 14533,
+    "method": "mspbanktransfer",
+    "parent_id": 14533,
+    "shipping_amount": 59
+  },
+  "status_histories": [
+    {
+      "comment": "Bank transfer transaction started, waiting for payment",
+      "created_at": "2023-04-11 09:53:58",
+      "entity_id": 72948,
+      "entity_name": "order",
+      "is_customer_notified": 0,
+      "is_visible_on_front": 0,
+      "parent_id": 14533,
+      "status": "pending"
     },
     {
-      "id": 226688,
-      "key": "_ga_tracked",
-      "value": "1"
+      "comment": null,
+      "created_at": "2023-04-11 09:53:57",
+      "entity_id": 72947,
+      "entity_name": "order",
+      "is_customer_notified": 1,
+      "is_visible_on_front": 0,
+      "parent_id": 14533,
+      "status": "pending"
     }
   ],
-  "line_items": [
-    {
-      "id": 3902,
-      "name": "2 gekoppelde IBC containers WIT op metalen of kunststof pallet - professioneel gecleand",
-      "product_id": 947,
-      "variation_id": 0,
-      "quantity": 2,
-      "tax_class": "",
-      "subtotal": "644.92",
-      "subtotal_tax": "135.43",
-      "total": "644.92",
-      "total_tax": "135.43",
-      "taxes": [
-        {
-          "id": 1,
-          "total": "135.4332",
-          "subtotal": "135.4332"
-        }
-      ],
-      "meta_data": [
-
-      ],
-      "sku": "IBC-cleaned-white-peme-combi-basic-2",
-      "price": 322.46,
-      "image": {
-        "id": "2213",
-        "src": "https://ibcbenl.boltest.be/wp-content/uploads/2022/01/ibc-container-wit-gekoppeld-2x-1000L-gereinigd-palet-metaal-kunststof-list.webp"
-      },
-      "parent_name": null
-    }
-  ],
-  "tax_lines": [
-    {
-      "id": 3904,
-      "rate_code": "BE-BTW-1",
-      "rate_id": 1,
-      "label": "btw",
-      "compound": false,
-      "tax_total": "135.43",
-      "shipping_tax_total": "0.00",
-      "rate_percent": 21,
-      "meta_data": [
-
-      ]
-    }
-  ],
-  "shipping_lines": [
-    {
-      "id": 3903,
-      "method_title": "Afhalen (enkel op afspraak)",
-      "method_id": "local_pickup",
-      "instance_id": "8",
-      "total": "0.00",
-      "total_tax": "0.00",
-      "taxes": [
-
-      ],
-      "meta_data": [
-        {
-          "id": 31727,
-          "key": "Artikelen",
-          "value": "2 gekoppelde IBC containers WIT op metalen of kunststof pallet - professioneel gecleand &times; 2",
-          "display_key": "Artikelen",
-          "display_value": "2 gekoppelde IBC containers WIT op metalen of kunststof pallet - professioneel gecleand &times; 2"
-        }
-      ]
-    }
-  ],
-  "fee_lines": [
-
-  ],
-  "coupon_lines": [
-
-  ],
-  "refunds": [
-
-  ],
-  "payment_url": "https://ibcbenl.boltest.be/checkout/order-pay/5299/?pay_for_order=true&key=wc_order_pmxoKxR113xuV",
-  "is_editable": false,
-  "needs_payment": false,
-  "needs_processing": true,
-  "date_created_gmt": "2023-01-03T15:31:50",
-  "date_modified_gmt": "2023-01-03T15:32:10",
-  "date_completed_gmt": null,
-  "date_paid_gmt": "2023-01-03T15:32:10",
-  "currency_symbol": "€",
-  "_links": {
-    "self": [
+  "extension_attributes": {
+    "shipping_assignments": [
       {
-        "href": "https://ibcbenl.boltest.be/wp-json/wc/v3/orders/5299"
+        "shipping": {
+          "address": {
+            "address_type": "shipping",
+            "city": "Destelbergen",
+            "country_id": "BE",
+            "email": "test123@gmail.com",
+            "entity_id": 29040,
+            "firstname": "Serhii",
+            "lastname": "Sorokin",
+            "parent_id": 14533,
+            "postcode": "9070",
+            "street": [
+              "Bochtenstraat"
+            ],
+            "telephone": "+35079978695"
+          },
+          "method": "amstrates_amstrates4",
+          "total": {
+            "base_shipping_amount": 59,
+            "base_shipping_discount_amount": 0,
+            "base_shipping_discount_tax_compensation_amnt": 0,
+            "base_shipping_incl_tax": 71.39,
+            "base_shipping_tax_amount": 12.39,
+            "shipping_amount": 59,
+            "shipping_discount_amount": 0,
+            "shipping_discount_tax_compensation_amount": 0,
+            "shipping_incl_tax": 71.39,
+            "shipping_tax_amount": 12.39
+          }
+        },
+        "items": [
+          {
+            "amount_refunded": 0,
+            "base_amount_refunded": 0,
+            "base_discount_amount": 0,
+            "base_discount_invoiced": 0,
+            "base_discount_tax_compensation_amount": 0,
+            "base_original_price": 1241,
+            "base_price": 1241,
+            "base_price_incl_tax": 1501.61,
+            "base_row_invoiced": 0,
+            "base_row_total": 1241,
+            "base_row_total_incl_tax": 1501.61,
+            "base_tax_amount": 260.61,
+            "base_tax_invoiced": 0,
+            "created_at": "2023-04-11 09:53:57",
+            "discount_amount": 0,
+            "discount_invoiced": 0,
+            "discount_percent": 0,
+            "free_shipping": 0,
+            "discount_tax_compensation_amount": 0,
+            "is_qty_decimal": 0,
+            "is_virtual": 0,
+            "item_id": 26268,
+            "name": "750 liter kunststof mazouttank met dieselpomp (220V) - 66 cm breed",
+            "no_discount": 0,
+            "order_id": 14533,
+            "original_price": 1241,
+            "price": 1241,
+            "price_incl_tax": 1501.61,
+            "product_id": 1653,
+            "product_type": "simple",
+            "qty_canceled": 0,
+            "qty_invoiced": 0,
+            "qty_ordered": 1,
+            "qty_refunded": 0,
+            "qty_shipped": 0,
+            "quote_item_id": 93291,
+            "row_invoiced": 0,
+            "row_total": 1241,
+            "row_total_incl_tax": 1501.61,
+            "row_weight": 573,
+            "sku": "mazpmp-bg-pewit-re-00750l-co",
+            "store_id": 1,
+            "tax_amount": 260.61,
+            "tax_invoiced": 0,
+            "tax_percent": 21,
+            "updated_at": "2023-04-11 09:53:58",
+            "weight": 573,
+            "product_option": {
+              "extension_attributes": {
+                "custom_options": [
+                  {
+                    "option_id": "91",
+                    "option_value": "268"
+                  },
+                  {
+                    "option_id": "244",
+                    "option_value": ""
+                  },
+                  {
+                    "option_id": "92",
+                    "option_value": "260"
+                  },
+                  {
+                    "option_id": "94",
+                    "option_value": "271"
+                  }
+                ]
+              }
+            }
+          }
+        ]
       }
     ],
-    "collection": [
+    "payment_additional_info": [
       {
-        "href": "https://ibcbenl.boltest.be/wp-json/wc/v3/orders"
+        "key": "method_title",
+        "value": "Bankoverschrijving (op voorhand)"
       }
-    ]
+    ],
+    "applied_taxes": [
+      {
+        "code": "BE VAT exempt",
+        "title": "BE VAT exempt",
+        "percent": 21,
+        "amount": 273,
+        "base_amount": 273
+      }
+    ],
+    "item_applied_taxes": [
+      {
+        "type": "shipping",
+        "applied_taxes": [
+          {
+            "code": "BE VAT exempt",
+            "title": "BE VAT exempt",
+            "percent": 21,
+            "amount": 12.39,
+            "base_amount": 12.39
+          }
+        ]
+      },
+      {
+        "type": "product",
+        "item_id": 26268,
+        "applied_taxes": [
+          {
+            "code": "BE VAT exempt",
+            "title": "BE VAT exempt",
+            "percent": 21,
+            "amount": 260.61,
+            "base_amount": 260.61
+          }
+        ]
+      }
+    ],
+    "converting_from_quote": true,
+    "ept_option_title": [
+      "{\"order_item_id\":\"26268\",\"product_id\":\"1653\",\"name\":\"750 liter kunststof mazouttank met dieselpomp (220V) - 66 cm breed\",\"option_data\":[{\"label\":\"Selecteer de configuratie van uw pomp\",\"value\":\"Dieselpomp 220V (40-60L\\/M) - OPEN\",\"print_value\":\"Dieselpomp 220V (40-60L\\/M) - OPEN\",\"option_id\":\"91\",\"option_type\":\"radio\",\"option_value\":\"268\",\"custom_view\":true,\"values_list\":{\"title\":\"Selecteer de configuratie van uw pomp\",\"values\":{\"268\":{\"title\":\"Dieselpomp 220V (40-60L\\/M) - OPEN\",\"value\":\"268\"}}}},{\"label\":\"Selecteer lengte slang 3\\/4\\\"\",\"value\":\"4 meter flexibel\",\"print_value\":\"4 meter flexibel\",\"option_id\":\"92\",\"option_type\":\"drop_down\",\"option_value\":\"260\",\"custom_view\":true,\"values_list\":{\"title\":\"Selecteer lengte slang 3\\/4\\\"\",\"values\":{\"260\":{\"title\":\"4 meter flexibel\",\"value\":\"260\"}}}},{\"label\":\"Digitaal telwerk\",\"value\":\"geen teller\",\"print_value\":\"geen teller\",\"option_id\":\"94\",\"option_type\":\"radio\",\"option_value\":\"271\",\"custom_view\":true,\"values_list\":{\"title\":\"Digitaal telwerk\",\"values\":{\"271\":{\"title\":\"geen teller\",\"value\":\"271\"}}}}]}"
+    ],
+    "is_invoice": false,
+    "is_shipment": false,
+    "apply_shipping_on_prices": "excluding_tax",
+    "comments": ""
   }
 }

@@ -1,8 +1,809 @@
-{'db': 'odoo_dev', 
-'token': 'DqXJAHKJXWp3jyaSDiVI', 
-'disable_database_manager': False, 
-'signup_enabled': True, 
-'reset_password_enabled': True, 
-'name': 'Internal User', 
-'login': 'email@addres.com', 
-'application_date': '05-01-2023'}
+{
+    "base_currency_code": "EUR",
+    "base_discount_amount": 0,
+    "base_grand_total": 1354.23,
+    "base_discount_tax_compensation_amount": 0,
+    "base_shipping_amount": 0,
+    "base_shipping_discount_amount": 0,
+    "base_shipping_discount_tax_compensation_amnt": 0,
+    "base_shipping_incl_tax": 0,
+    "base_shipping_tax_amount": 0,
+    "base_subtotal": 1119.2,
+    "base_subtotal_incl_tax": 1354.23,
+    "base_tax_amount": 235.03,
+    "base_total_due": 1354.23,
+    "base_to_global_rate": 1,
+    "base_to_order_rate": 1,
+    "billing_address_id": 13907,
+    "created_at": "2023-03-10 10:29:52",
+    "customer_email": "jlwenkin@gmail.com",
+    "customer_firstname": "Jean-Louis",
+    "customer_group_id": 1,
+    "customer_id": 3794,
+    "customer_is_guest": 0,
+    "customer_lastname": "Wenkin",
+    "customer_note_notify": 1,
+    "discount_amount": 0,
+    "email_sent": 1,
+    "entity_id": 6967,
+    "global_currency_code": "EUR",
+    "grand_total": 1354.23,
+    "discount_tax_compensation_amount": 0,
+    "increment_id": "ORD1003202312573",
+    "is_virtual": 0,
+    "order_currency_code": "EUR",
+    "protect_code": "facf3dc429ea0f55ca549c4b96fae916",
+    "quote_id": 311293,
+    "remote_ip": "109.89.107.121",
+    "shipping_amount": 0,
+    "shipping_description": "Livraison chez vous en Belgique, standard (livraison des cuves = GRATUITE !)",
+    "shipping_discount_amount": 0,
+    "shipping_discount_tax_compensation_amount": 0,
+    "shipping_incl_tax": 0,
+    "shipping_tax_amount": 0,
+    "state": "pending_payment",
+    "status": "pending_payment",
+    "store_currency_code": "EUR",
+    "store_id": 1,
+    "store_name": "cuve.be\nCuve.be\nStore View Cuve.be",
+    "store_to_base_rate": 0,
+    "store_to_order_rate": 0,
+    "subtotal": 1119.2,
+    "subtotal_incl_tax": 1354.23,
+    "tax_amount": 235.03,
+    "total_due": 1354.23,
+    "total_item_count": 2,
+    "total_qty_ordered": 1,
+    "updated_at": "2023-03-10 10:29:56",
+    "weight": 1688,
+    "items": [
+        {
+            "amount_refunded": 0,
+            "base_amount_refunded": 0,
+            "base_discount_amount": 0,
+            "base_discount_invoiced": 0,
+            "base_original_price": 1119.2,
+            "base_price": 1119.2,
+            "base_price_incl_tax": 1354.23,
+            "base_row_invoiced": 0,
+            "base_row_total": 1119.2,
+            "base_row_total_incl_tax": 1354.23,
+            "base_tax_amount": 235.03,
+            "base_tax_invoiced": 0,
+            "created_at": "2023-03-10 10:29:52",
+            "discount_amount": 0,
+            "discount_invoiced": 0,
+            "discount_percent": 0,
+            "free_shipping": 0,
+            "is_qty_decimal": 0,
+            "is_virtual": 0,
+            "item_id": 14248,
+            "name": "Citerne \u00e0 eau de pluie rectangulaire a\u00e9rienne - jumelable - 3000 litres",
+            "no_discount": 0,
+            "order_id": 6967,
+            "original_price": 1119.2,
+            "price": 1119.2,
+            "price_incl_tax": 1354.23,
+            "product_id": 1018,
+            "product_type": "bundle",
+            "qty_canceled": 0,
+            "qty_invoiced": 0,
+            "qty_ordered": 1,
+            "qty_refunded": 0,
+            "qty_shipped": 0,
+            "quote_item_id": 303769,
+            "row_invoiced": 0,
+            "row_total": 1119.2,
+            "row_total_incl_tax": 1354.23,
+            "row_weight": 1688,
+            "sku": "wat-bg-re-03000l-config",
+            "store_id": 1,
+            "tax_amount": 235.03,
+            "tax_invoiced": 0,
+            "updated_at": "2023-03-10 10:29:54",
+            "weight": 1688,
+            "product_option": {
+                "extension_attributes": {
+                    "bundle_options": [
+                        {
+                            "option_id": 59,
+                            "option_qty": 1,
+                            "option_selections": [
+                                834
+                            ]
+                        },
+                        {
+                            "option_id": 417,
+                            "option_qty": 1,
+                            "option_selections": [
+                                1493
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "amount_refunded": 0,
+            "base_amount_refunded": 0,
+            "base_discount_amount": 0,
+            "base_discount_invoiced": 0,
+            "base_discount_tax_compensation_amount": 0,
+            "base_original_price": 1314,
+            "base_price": 1051,
+            "base_price_incl_tax": 1271.71,
+            "base_row_invoiced": 0,
+            "base_row_total": 1051,
+            "base_row_total_incl_tax": 1271.71,
+            "base_tax_amount": 220.71,
+            "base_tax_invoiced": 0,
+            "created_at": "2023-03-10 10:29:52",
+            "discount_amount": 0,
+            "discount_invoiced": 0,
+            "discount_percent": 0,
+            "free_shipping": 0,
+            "discount_tax_compensation_amount": 0,
+            "is_qty_decimal": 0,
+            "is_virtual": 0,
+            "item_id": 14249,
+            "name": "1 cuve de 3000 l",
+            "no_discount": 0,
+            "order_id": 6967,
+            "original_price": 1314,
+            "parent_item_id": 14248,
+            "price": 1051,
+            "price_incl_tax": 1271.71,
+            "product_id": 890,
+            "product_type": "simple",
+            "qty_canceled": 0,
+            "qty_invoiced": 0,
+            "qty_ordered": 1,
+            "qty_refunded": 0,
+            "qty_shipped": 0,
+            "quote_item_id": 303770,
+            "row_invoiced": 0,
+            "row_total": 1051,
+            "row_total_incl_tax": 1271.71,
+            "row_weight": 0,
+            "sku": "wat-bg-re-03000l-base-1b",
+            "store_id": 1,
+            "tax_amount": 220.71,
+            "tax_invoiced": 0,
+            "tax_percent": 21,
+            "updated_at": "2023-03-10 10:29:52",
+            "weight": 1688,
+            "parent_item": {
+                "amount_refunded": 0,
+                "base_amount_refunded": 0,
+                "base_discount_amount": 0,
+                "base_discount_invoiced": 0,
+                "base_original_price": 1119.2,
+                "base_price": 1119.2,
+                "base_price_incl_tax": 1354.23,
+                "base_row_invoiced": 0,
+                "base_row_total": 1119.2,
+                "base_row_total_incl_tax": 1354.23,
+                "base_tax_amount": 235.03,
+                "base_tax_invoiced": 0,
+                "created_at": "2023-03-10 10:29:52",
+                "discount_amount": 0,
+                "discount_invoiced": 0,
+                "discount_percent": 0,
+                "free_shipping": 0,
+                "is_qty_decimal": 0,
+                "is_virtual": 0,
+                "item_id": 14248,
+                "name": "Citerne \u00e0 eau de pluie rectangulaire a\u00e9rienne - jumelable - 3000 litres",
+                "no_discount": 0,
+                "order_id": 6967,
+                "original_price": 1119.2,
+                "price": 1119.2,
+                "price_incl_tax": 1354.23,
+                "product_id": 1018,
+                "product_type": "bundle",
+                "qty_canceled": 0,
+                "qty_invoiced": 0,
+                "qty_ordered": 1,
+                "qty_refunded": 0,
+                "qty_shipped": 0,
+                "quote_item_id": 303769,
+                "row_invoiced": 0,
+                "row_total": 1119.2,
+                "row_total_incl_tax": 1354.23,
+                "row_weight": 1688,
+                "sku": "wat-bg-re-03000l-config",
+                "store_id": 1,
+                "tax_amount": 235.03,
+                "tax_invoiced": 0,
+                "updated_at": "2023-03-10 10:29:54",
+                "weight": 1688,
+                "product_option": {
+                    "extension_attributes": {
+                        "bundle_options": [
+                            {
+                                "option_id": 59,
+                                "option_qty": 1,
+                                "option_selections": [
+                                    834
+                                ]
+                            },
+                            {
+                                "option_id": 417,
+                                "option_qty": 1,
+                                "option_selections": [
+                                    1493
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "amount_refunded": 0,
+            "base_amount_refunded": 0,
+            "base_discount_amount": 0,
+            "base_discount_invoiced": 0,
+            "base_discount_tax_compensation_amount": 0,
+            "base_original_price": 68.2,
+            "base_price": 68.2,
+            "base_price_incl_tax": 82.52,
+            "base_row_invoiced": 0,
+            "base_row_total": 68.2,
+            "base_row_total_incl_tax": 82.52,
+            "base_tax_amount": 14.32,
+            "base_tax_invoiced": 0,
+            "created_at": "2023-03-10 10:29:52",
+            "discount_amount": 0,
+            "discount_invoiced": 0,
+            "discount_percent": 0,
+            "free_shipping": 0,
+            "discount_tax_compensation_amount": 0,
+            "is_qty_decimal": 0,
+            "is_virtual": 0,
+            "item_id": 14250,
+            "name": "Vanne r\u00e9sistante au gel (1/2\") avec bride en PE",
+            "no_discount": 0,
+            "order_id": 6967,
+            "original_price": 68.2,
+            "parent_item_id": 14248,
+            "price": 68.2,
+            "price_incl_tax": 82.52,
+            "product_id": 1009,
+            "product_type": "simple",
+            "qty_canceled": 0,
+            "qty_invoiced": 0,
+            "qty_ordered": 1,
+            "qty_refunded": 0,
+            "qty_shipped": 0,
+            "quote_item_id": 303771,
+            "row_invoiced": 0,
+            "row_total": 68.2,
+            "row_total_incl_tax": 82.52,
+            "row_weight": 0,
+            "sku": "optie-water-kraan-vorstbestendig-met-kunststof-flens",
+            "store_id": 1,
+            "tax_amount": 14.32,
+            "tax_invoiced": 0,
+            "tax_percent": 21,
+            "updated_at": "2023-03-10 10:29:52",
+            "parent_item": {
+                "amount_refunded": 0,
+                "base_amount_refunded": 0,
+                "base_discount_amount": 0,
+                "base_discount_invoiced": 0,
+                "base_original_price": 1119.2,
+                "base_price": 1119.2,
+                "base_price_incl_tax": 1354.23,
+                "base_row_invoiced": 0,
+                "base_row_total": 1119.2,
+                "base_row_total_incl_tax": 1354.23,
+                "base_tax_amount": 235.03,
+                "base_tax_invoiced": 0,
+                "created_at": "2023-03-10 10:29:52",
+                "discount_amount": 0,
+                "discount_invoiced": 0,
+                "discount_percent": 0,
+                "free_shipping": 0,
+                "is_qty_decimal": 0,
+                "is_virtual": 0,
+                "item_id": 14248,
+                "name": "Citerne \u00e0 eau de pluie rectangulaire a\u00e9rienne - jumelable - 3000 litres",
+                "no_discount": 0,
+                "order_id": 6967,
+                "original_price": 1119.2,
+                "price": 1119.2,
+                "price_incl_tax": 1354.23,
+                "product_id": 1018,
+                "product_type": "bundle",
+                "qty_canceled": 0,
+                "qty_invoiced": 0,
+                "qty_ordered": 1,
+                "qty_refunded": 0,
+                "qty_shipped": 0,
+                "quote_item_id": 303769,
+                "row_invoiced": 0,
+                "row_total": 1119.2,
+                "row_total_incl_tax": 1354.23,
+                "row_weight": 1688,
+                "sku": "wat-bg-re-03000l-config",
+                "store_id": 1,
+                "tax_amount": 235.03,
+                "tax_invoiced": 0,
+                "updated_at": "2023-03-10 10:29:54",
+                "weight": 1688,
+                "product_option": {
+                    "extension_attributes": {
+                        "bundle_options": [
+                            {
+                                "option_id": 59,
+                                "option_qty": 1,
+                                "option_selections": [
+                                    834
+                                ]
+                            },
+                            {
+                                "option_id": 417,
+                                "option_qty": 1,
+                                "option_selections": [
+                                    1493
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "billing_address": {
+        "address_type": "billing",
+        "city": "Habay-La-Vieille",
+        "country_id": "BE",
+        "customer_address_id": 2446,
+        "email": "jlwenkin@gmail.com",
+        "entity_id": 13907,
+        "firstname": "Jean-Louis",
+        "lastname": "Wenkin",
+        "parent_id": 6967,
+        "postcode": "6723",
+        "street": [
+            "Rue de rimbiery, 93"
+        ],
+        "telephone": "+352 621153865"
+    },
+    "payment": {
+        "account_status": null,
+        "additional_information": [
+            "Virement d'avance"
+        ],
+        "amount_ordered": 1354.23,
+        "base_amount_ordered": 1354.23,
+        "base_shipping_amount": 0,
+        "cc_exp_year": "0",
+        "cc_last4": null,
+        "cc_ss_start_month": "0",
+        "cc_ss_start_year": "0",
+        "entity_id": 6954,
+        "method": "mspbanktransfer",
+        "parent_id": 6967,
+        "shipping_amount": 0
+    },
+    "status_histories": [
+        {
+            "comment": "Bank transfer transaction started, waiting for payment",
+            "created_at": "2023-03-10 10:29:54",
+            "entity_id": 32099,
+            "entity_name": "order",
+            "is_customer_notified": 1,
+            "is_visible_on_front": 0,
+            "parent_id": 6967,
+            "status": "pending_payment"
+        },
+        {
+            "comment": null,
+            "created_at": "2023-03-10 10:29:52",
+            "entity_id": 32098,
+            "entity_name": "order",
+            "is_customer_notified": 1,
+            "is_visible_on_front": 0,
+            "parent_id": 6967,
+            "status": "pending_payment"
+        }
+    ],
+    "extension_attributes": {
+        "shipping_assignments": [
+            {
+                "shipping": {
+                    "address": {
+                        "address_type": "shipping",
+                        "city": "Habay-La-Vieille",
+                        "country_id": "BE",
+                        "customer_address_id": 2446,
+                        "email": "jlwenkin@gmail.com",
+                        "entity_id": 13906,
+                        "firstname": "Jean-Louis",
+                        "lastname": "Wenkin",
+                        "parent_id": 6967,
+                        "postcode": "6723",
+                        "street": [
+                            "Rue de rimbiery, 93"
+                        ],
+                        "telephone": "+352 621153865"
+                    },
+                    "method": "amstrates_amstrates9",
+                    "total": {
+                        "base_shipping_amount": 0,
+                        "base_shipping_discount_amount": 0,
+                        "base_shipping_discount_tax_compensation_amnt": 0,
+                        "base_shipping_incl_tax": 0,
+                        "base_shipping_tax_amount": 0,
+                        "shipping_amount": 0,
+                        "shipping_discount_amount": 0,
+                        "shipping_discount_tax_compensation_amount": 0,
+                        "shipping_incl_tax": 0,
+                        "shipping_tax_amount": 0
+                    }
+                },
+                "items": [
+                    {
+                        "amount_refunded": 0,
+                        "base_amount_refunded": 0,
+                        "base_discount_amount": 0,
+                        "base_discount_invoiced": 0,
+                        "base_original_price": 1119.2,
+                        "base_price": 1119.2,
+                        "base_price_incl_tax": 1354.23,
+                        "base_row_invoiced": 0,
+                        "base_row_total": 1119.2,
+                        "base_row_total_incl_tax": 1354.23,
+                        "base_tax_amount": 235.03,
+                        "base_tax_invoiced": 0,
+                        "created_at": "2023-03-10 10:29:52",
+                        "discount_amount": 0,
+                        "discount_invoiced": 0,
+                        "discount_percent": 0,
+                        "free_shipping": 0,
+                        "is_qty_decimal": 0,
+                        "is_virtual": 0,
+                        "item_id": 14248,
+                        "name": "Citerne \u00e0 eau de pluie rectangulaire a\u00e9rienne - jumelable - 3000 litres",
+                        "no_discount": 0,
+                        "order_id": 6967,
+                        "original_price": 1119.2,
+                        "price": 1119.2,
+                        "price_incl_tax": 1354.23,
+                        "product_id": 1018,
+                        "product_type": "bundle",
+                        "qty_canceled": 0,
+                        "qty_invoiced": 0,
+                        "qty_ordered": 1,
+                        "qty_refunded": 0,
+                        "qty_shipped": 0,
+                        "quote_item_id": 303769,
+                        "row_invoiced": 0,
+                        "row_total": 1119.2,
+                        "row_total_incl_tax": 1354.23,
+                        "row_weight": 1688,
+                        "sku": "wat-bg-re-03000l-config",
+                        "store_id": 1,
+                        "tax_amount": 235.03,
+                        "tax_invoiced": 0,
+                        "updated_at": "2023-03-10 10:29:54",
+                        "weight": 1688,
+                        "product_option": {
+                            "extension_attributes": {
+                                "bundle_options": [
+                                    {
+                                        "option_id": 59,
+                                        "option_qty": 1,
+                                        "option_selections": [
+                                            834
+                                        ]
+                                    },
+                                    {
+                                        "option_id": 417,
+                                        "option_qty": 1,
+                                        "option_selections": [
+                                            1493
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "amount_refunded": 0,
+                        "base_amount_refunded": 0,
+                        "base_discount_amount": 0,
+                        "base_discount_invoiced": 0,
+                        "base_discount_tax_compensation_amount": 0,
+                        "base_original_price": 1314,
+                        "base_price": 1051,
+                        "base_price_incl_tax": 1271.71,
+                        "base_row_invoiced": 0,
+                        "base_row_total": 1051,
+                        "base_row_total_incl_tax": 1271.71,
+                        "base_tax_amount": 220.71,
+                        "base_tax_invoiced": 0,
+                        "created_at": "2023-03-10 10:29:52",
+                        "discount_amount": 0,
+                        "discount_invoiced": 0,
+                        "discount_percent": 0,
+                        "free_shipping": 0,
+                        "discount_tax_compensation_amount": 0,
+                        "is_qty_decimal": 0,
+                        "is_virtual": 0,
+                        "item_id": 14249,
+                        "name": "1 cuve de 3000 l",
+                        "no_discount": 0,
+                        "order_id": 6967,
+                        "original_price": 1314,
+                        "parent_item_id": 14248,
+                        "price": 1051,
+                        "price_incl_tax": 1271.71,
+                        "product_id": 890,
+                        "product_type": "simple",
+                        "qty_canceled": 0,
+                        "qty_invoiced": 0,
+                        "qty_ordered": 1,
+                        "qty_refunded": 0,
+                        "qty_shipped": 0,
+                        "quote_item_id": 303770,
+                        "row_invoiced": 0,
+                        "row_total": 1051,
+                        "row_total_incl_tax": 1271.71,
+                        "row_weight": 0,
+                        "sku": "wat-bg-re-03000l-base-1b",
+                        "store_id": 1,
+                        "tax_amount": 220.71,
+                        "tax_invoiced": 0,
+                        "tax_percent": 21,
+                        "updated_at": "2023-03-10 10:29:52",
+                        "weight": 1688,
+                        "parent_item": {
+                            "amount_refunded": 0,
+                            "base_amount_refunded": 0,
+                            "base_discount_amount": 0,
+                            "base_discount_invoiced": 0,
+                            "base_original_price": 1119.2,
+                            "base_price": 1119.2,
+                            "base_price_incl_tax": 1354.23,
+                            "base_row_invoiced": 0,
+                            "base_row_total": 1119.2,
+                            "base_row_total_incl_tax": 1354.23,
+                            "base_tax_amount": 235.03,
+                            "base_tax_invoiced": 0,
+                            "created_at": "2023-03-10 10:29:52",
+                            "discount_amount": 0,
+                            "discount_invoiced": 0,
+                            "discount_percent": 0,
+                            "free_shipping": 0,
+                            "is_qty_decimal": 0,
+                            "is_virtual": 0,
+                            "item_id": 14248,
+                            "name": "Citerne \u00e0 eau de pluie rectangulaire a\u00e9rienne - jumelable - 3000 litres",
+                            "no_discount": 0,
+                            "order_id": 6967,
+                            "original_price": 1119.2,
+                            "price": 1119.2,
+                            "price_incl_tax": 1354.23,
+                            "product_id": 1018,
+                            "product_type": "bundle",
+                            "qty_canceled": 0,
+                            "qty_invoiced": 0,
+                            "qty_ordered": 1,
+                            "qty_refunded": 0,
+                            "qty_shipped": 0,
+                            "quote_item_id": 303769,
+                            "row_invoiced": 0,
+                            "row_total": 1119.2,
+                            "row_total_incl_tax": 1354.23,
+                            "row_weight": 1688,
+                            "sku": "wat-bg-re-03000l-config",
+                            "store_id": 1,
+                            "tax_amount": 235.03,
+                            "tax_invoiced": 0,
+                            "updated_at": "2023-03-10 10:29:54",
+                            "weight": 1688,
+                            "product_option": {
+                                "extension_attributes": {
+                                    "bundle_options": [
+                                        {
+                                            "option_id": 59,
+                                            "option_qty": 1,
+                                            "option_selections": [
+                                                834
+                                            ]
+                                        },
+                                        {
+                                            "option_id": 417,
+                                            "option_qty": 1,
+                                            "option_selections": [
+                                                1493
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "amount_refunded": 0,
+                        "base_amount_refunded": 0,
+                        "base_discount_amount": 0,
+                        "base_discount_invoiced": 0,
+                        "base_discount_tax_compensation_amount": 0,
+                        "base_original_price": 68.2,
+                        "base_price": 68.2,
+                        "base_price_incl_tax": 82.52,
+                        "base_row_invoiced": 0,
+                        "base_row_total": 68.2,
+                        "base_row_total_incl_tax": 82.52,
+                        "base_tax_amount": 14.32,
+                        "base_tax_invoiced": 0,
+                        "created_at": "2023-03-10 10:29:52",
+                        "discount_amount": 0,
+                        "discount_invoiced": 0,
+                        "discount_percent": 0,
+                        "free_shipping": 0,
+                        "discount_tax_compensation_amount": 0,
+                        "is_qty_decimal": 0,
+                        "is_virtual": 0,
+                        "item_id": 14250,
+                        "name": "Vanne r\u00e9sistante au gel (1/2\") avec bride en PE",
+                        "no_discount": 0,
+                        "order_id": 6967,
+                        "original_price": 68.2,
+                        "parent_item_id": 14248,
+                        "price": 68.2,
+                        "price_incl_tax": 82.52,
+                        "product_id": 1009,
+                        "product_type": "simple",
+                        "qty_canceled": 0,
+                        "qty_invoiced": 0,
+                        "qty_ordered": 1,
+                        "qty_refunded": 0,
+                        "qty_shipped": 0,
+                        "quote_item_id": 303771,
+                        "row_invoiced": 0,
+                        "row_total": 68.2,
+                        "row_total_incl_tax": 82.52,
+                        "row_weight": 0,
+                        "sku": "optie-water-kraan-vorstbestendig-met-kunststof-flens",
+                        "store_id": 1,
+                        "tax_amount": 14.32,
+                        "tax_invoiced": 0,
+                        "tax_percent": 21,
+                        "updated_at": "2023-03-10 10:29:52",
+                        "parent_item": {
+                            "amount_refunded": 0,
+                            "base_amount_refunded": 0,
+                            "base_discount_amount": 0,
+                            "base_discount_invoiced": 0,
+                            "base_original_price": 1119.2,
+                            "base_price": 1119.2,
+                            "base_price_incl_tax": 1354.23,
+                            "base_row_invoiced": 0,
+                            "base_row_total": 1119.2,
+                            "base_row_total_incl_tax": 1354.23,
+                            "base_tax_amount": 235.03,
+                            "base_tax_invoiced": 0,
+                            "created_at": "2023-03-10 10:29:52",
+                            "discount_amount": 0,
+                            "discount_invoiced": 0,
+                            "discount_percent": 0,
+                            "free_shipping": 0,
+                            "is_qty_decimal": 0,
+                            "is_virtual": 0,
+                            "item_id": 14248,
+                            "name": "Citerne \u00e0 eau de pluie rectangulaire a\u00e9rienne - jumelable - 3000 litres",
+                            "no_discount": 0,
+                            "order_id": 6967,
+                            "original_price": 1119.2,
+                            "price": 1119.2,
+                            "price_incl_tax": 1354.23,
+                            "product_id": 1018,
+                            "product_type": "bundle",
+                            "qty_canceled": 0,
+                            "qty_invoiced": 0,
+                            "qty_ordered": 1,
+                            "qty_refunded": 0,
+                            "qty_shipped": 0,
+                            "quote_item_id": 303769,
+                            "row_invoiced": 0,
+                            "row_total": 1119.2,
+                            "row_total_incl_tax": 1354.23,
+                            "row_weight": 1688,
+                            "sku": "wat-bg-re-03000l-config",
+                            "store_id": 1,
+                            "tax_amount": 235.03,
+                            "tax_invoiced": 0,
+                            "updated_at": "2023-03-10 10:29:54",
+                            "weight": 1688,
+                            "product_option": {
+                                "extension_attributes": {
+                                    "bundle_options": [
+                                        {
+                                            "option_id": 59,
+                                            "option_qty": 1,
+                                            "option_selections": [
+                                                834
+                                            ]
+                                        },
+                                        {
+                                            "option_id": 417,
+                                            "option_qty": 1,
+                                            "option_selections": [
+                                                1493
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "payment_additional_info": [
+            {
+                "key": "method_title",
+                "value": "Virement d'avance"
+            }
+        ],
+        "applied_taxes": [
+            {
+                "code": "BE standard VAT",
+                "title": "BE standard VAT",
+                "percent": 21,
+                "amount": 235.03,
+                "base_amount": 235.03
+            }
+        ],
+        "item_applied_taxes": [
+            {
+                "type": "shipping",
+                "applied_taxes": [
+                    {
+                        "code": "BE standard VAT",
+                        "title": "BE standard VAT",
+                        "percent": 21,
+                        "amount": 0,
+                        "base_amount": 0
+                    }
+                ]
+            },
+            {
+                "type": "product",
+                "item_id": 14249,
+                "applied_taxes": [
+                    {
+                        "code": "BE standard VAT",
+                        "title": "BE standard VAT",
+                        "percent": 21,
+                        "amount": 220.71,
+                        "base_amount": 220.71
+                    }
+                ]
+            },
+            {
+                "type": "product",
+                "item_id": 14250,
+                "applied_taxes": [
+                    {
+                        "code": "BE standard VAT",
+                        "title": "BE standard VAT",
+                        "percent": 21,
+                        "amount": 14.32,
+                        "base_amount": 14.32
+                    }
+                ]
+            }
+        ],
+        "converting_from_quote": true,
+        "ept_option_title": [],
+        "is_invoice": false,
+        "is_shipment": false,
+        "comments": ""
+    }
+}
